@@ -37,7 +37,7 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		305CDF9C1FFFB38E0010586C /* sshfs-static in Resources */ = {isa = PBXBuildFile; fileRef = 305CDF9B1FFFB38E0010586C /* sshfs-static */; };
+		305CDF9F1FFFB7E80010586C /* sshfs-static in Resources */ = {isa = PBXBuildFile; fileRef = 305CDF9D1FFFB7C90010586C /* sshfs-static */; };
 		502970E9165625B5007676B8 /* IconFamily.h in Headers */ = {isa = PBXBuildFile; fileRef = 502970E7165625B5007676B8 /* IconFamily.h */; };
 		502970EA165625B5007676B8 /* IconFamily.m in Sources */ = {isa = PBXBuildFile; fileRef = 502970E8165625B5007676B8 /* IconFamily.m */; };
 		502970EE165625C9007676B8 /* NSString+CarbonFSRefCreation.h in Headers */ = {isa = PBXBuildFile; fileRef = 502970EC165625C9007676B8 /* NSString+CarbonFSRefCreation.h */; };
@@ -364,7 +364,7 @@
 
 /* Begin PBXFileReference section */
 		08FB779EFE84155DC02AAC07 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
-		305CDF9B1FFFB38E0010586C /* sshfs-static */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; name = "sshfs-static"; path = "../../../../usr/local/Cellar/sshfs/2.10/bin/sshfs-static"; sourceTree = "<group>"; };
+		305CDF9D1FFFB7C90010586C /* sshfs-static */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = "sshfs-static"; sourceTree = "<group>"; };
 		502970E7165625B5007676B8 /* IconFamily.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IconFamily.h; path = MFCore/IconFamily.h; sourceTree = "<group>"; };
 		502970E8165625B5007676B8 /* IconFamily.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IconFamily.m; path = MFCore/IconFamily.m; sourceTree = "<group>"; };
 		502970EC165625C9007676B8 /* NSString+CarbonFSRefCreation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+CarbonFSRefCreation.h"; path = "MFCore/NSString+CarbonFSRefCreation.h"; sourceTree = "<group>"; };
@@ -858,7 +858,7 @@
 			isa = PBXGroup;
 			children = (
 				D4656C8B0D6FD6DC00DE2208 /* sshfs_icon.icns */,
-				305CDF9B1FFFB38E0010586C /* sshfs-static */,
+				305CDF9D1FFFB7C90010586C /* sshfs-static */,
 				D4656C8C0D6FD6DC00DE2208 /* sshfs.png */,
 				D439D6D50D0A0FDE0025574A /* sshfsConfiguration.xib */,
 				D4B14C0F0CE03F4C003195A3 /* sshfs-Info.plist */,
@@ -1297,7 +1297,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				305CDF9C1FFFB38E0010586C /* sshfs-static in Resources */,
 				D4DF34CE0D80FC73005C9402 /* topView.xib in Resources */,
 				D41E23990D88E7B100F46F50 /* macfusionAdvancedView.xib in Resources */,
 				D41E24260D897D5700F46F50 /* MFPreferences.xib in Resources */,
@@ -1327,6 +1326,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				305CDF9F1FFFB7E80010586C /* sshfs-static in Resources */,
 				D4B14BCB0CE03D25003195A3 /* sshfs-static.old in Resources */,
 				D439D6D60D0A0FDE0025574A /* sshfsConfiguration.xib in Resources */,
 				D4656C8D0D6FD6DC00DE2208 /* sshfs_icon.icns in Resources */,
