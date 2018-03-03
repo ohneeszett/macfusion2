@@ -204,7 +204,8 @@
 	
 	[defaultParameterDictionary addEntriesFromDictionary:delegateDict];
 	[defaultParameterDictionary setObject:[NSNumber numberWithBool:NO] forKey:kMFFSNegativeVNodeCacheParameter];
-	[defaultParameterDictionary setObject:[NSNumber numberWithBool:NO] forKey:kMFFSNoAppleDoubleParameter];
+	[defaultParameterDictionary setObject:[NSNumber numberWithBool:YES] forKey:kMFFSNoAppleDoubleParameter];
+	[defaultParameterDictionary setObject:[NSNumber numberWithBool:YES] forKey:kMFFSShowInFinderSidebar];
 	
 	return [defaultParameterDictionary copy];
 }
@@ -262,6 +263,10 @@
 			
 			if ([[self.parameters objectForKey:kMFFSNegativeVNodeCacheParameter] boolValue]) {
 				[taskArguments addObject:@"-onegative_vncache"];
+			}
+            
+			if ([[self.parameters objectForKey:kMFFSShowInFinderSidebar] boolValue]) {
+				[taskArguments addObject:@"-olocal"];
 			}
 			
 			return taskArguments;

@@ -37,6 +37,7 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
+		305CDF9F1FFFB7E80010586C /* sshfs-static in Resources */ = {isa = PBXBuildFile; fileRef = 305CDF9D1FFFB7C90010586C /* sshfs-static */; };
 		502970E9165625B5007676B8 /* IconFamily.h in Headers */ = {isa = PBXBuildFile; fileRef = 502970E7165625B5007676B8 /* IconFamily.h */; };
 		502970EA165625B5007676B8 /* IconFamily.m in Sources */ = {isa = PBXBuildFile; fileRef = 502970E8165625B5007676B8 /* IconFamily.m */; };
 		502970EE165625C9007676B8 /* NSString+CarbonFSRefCreation.h in Headers */ = {isa = PBXBuildFile; fileRef = 502970EC165625C9007676B8 /* NSString+CarbonFSRefCreation.h */; };
@@ -153,7 +154,7 @@
 		D48DB9E60D70DA28008A62BB /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = D48DB9A90D70D910008A62BB /* MainMenu.xib */; };
 		D48DBA520D70DF31008A62BB /* MFCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4FC0C980CF128480029B133 /* MFCore.framework */; };
 		D49059750D35681F00E21C1E /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D49059740D35681F00E21C1E /* AppKit.framework */; };
-		D4B14BCB0CE03D25003195A3 /* sshfs-static in Resources */ = {isa = PBXBuildFile; fileRef = D4B14BAC0CE03C84003195A3 /* sshfs-static */; };
+		D4B14BCB0CE03D25003195A3 /* sshfs-static.old in Resources */ = {isa = PBXBuildFile; fileRef = D4B14BAC0CE03C84003195A3 /* sshfs-static.old */; };
 		D4C6334D0D7644B300734165 /* MGFadingWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = D4C6334C0D7644B300734165 /* MGFadingWindow.m */; };
 		D4C910180E031A720071C4AF /* MFSettingsController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4C910170E031A720071C4AF /* MFSettingsController.m */; };
 		D4C9109F0E03204E0071C4AF /* MFMountToggleButtonCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D4C9109E0E03204E0071C4AF /* MFMountToggleButtonCell.m */; };
@@ -363,6 +364,7 @@
 
 /* Begin PBXFileReference section */
 		08FB779EFE84155DC02AAC07 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		305CDF9D1FFFB7C90010586C /* sshfs-static */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = "sshfs-static"; sourceTree = "<group>"; };
 		502970E7165625B5007676B8 /* IconFamily.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IconFamily.h; path = MFCore/IconFamily.h; sourceTree = "<group>"; };
 		502970E8165625B5007676B8 /* IconFamily.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IconFamily.m; path = MFCore/IconFamily.m; sourceTree = "<group>"; };
 		502970EC165625C9007676B8 /* NSString+CarbonFSRefCreation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+CarbonFSRefCreation.h"; path = "MFCore/NSString+CarbonFSRefCreation.h"; sourceTree = "<group>"; };
@@ -479,7 +481,7 @@
 		D48DB9AF0D70D968008A62BB /* menulingMain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = menulingMain.m; sourceTree = "<group>"; };
 		D49059740D35681F00E21C1E /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
 		D4905BD60D380B6B00E21C1E /* DiskArbitration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DiskArbitration.framework; path = /System/Library/Frameworks/DiskArbitration.framework; sourceTree = "<absolute>"; };
-		D4B14BAC0CE03C84003195A3 /* sshfs-static */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = "sshfs-static"; sourceTree = "<group>"; };
+		D4B14BAC0CE03C84003195A3 /* sshfs-static.old */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = "sshfs-static.old"; sourceTree = "<group>"; };
 		D4B14C0F0CE03F4C003195A3 /* sshfs-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "sshfs-Info.plist"; sourceTree = "<group>"; };
 		D4B14E730CE198AC003195A3 /* mfctl */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = mfctl; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4C6334B0D7644B300734165 /* MGFadingWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGFadingWindow.h; sourceTree = "<group>"; };
@@ -856,10 +858,11 @@
 			isa = PBXGroup;
 			children = (
 				D4656C8B0D6FD6DC00DE2208 /* sshfs_icon.icns */,
+				305CDF9D1FFFB7C90010586C /* sshfs-static */,
 				D4656C8C0D6FD6DC00DE2208 /* sshfs.png */,
 				D439D6D50D0A0FDE0025574A /* sshfsConfiguration.xib */,
 				D4B14C0F0CE03F4C003195A3 /* sshfs-Info.plist */,
-				D4B14BAC0CE03C84003195A3 /* sshfs-static */,
+				D4B14BAC0CE03C84003195A3 /* sshfs-static.old */,
 				50F1E98D16179E2300F94F9D /* sshfs-static-lions */,
 				D41316310D7F740400F55B9B /* sshfsAdvanced.xib */,
 			);
@@ -1323,7 +1326,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D4B14BCB0CE03D25003195A3 /* sshfs-static in Resources */,
+				305CDF9F1FFFB7E80010586C /* sshfs-static in Resources */,
+				D4B14BCB0CE03D25003195A3 /* sshfs-static.old in Resources */,
 				D439D6D60D0A0FDE0025574A /* sshfsConfiguration.xib in Resources */,
 				D4656C8D0D6FD6DC00DE2208 /* sshfs_icon.icns in Resources */,
 				D4656C8E0D6FD6DC00DE2208 /* sshfs.png in Resources */,
